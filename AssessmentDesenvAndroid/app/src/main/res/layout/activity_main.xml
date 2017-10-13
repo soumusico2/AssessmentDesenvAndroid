@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hebertnunes.assessmentdesenvandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        app:srcCompat="@mipmap/logo_android" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btn_cadastro"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/btn_login"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="33dp"
+        android:text="Button"
+        tools:text="Cadastrar" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/btn_cadastro"
+        android:layout_below="@+id/btn_cadastro"
+        android:layout_marginTop="30dp"
+        android:text="Facebook" />
+</android.widget.RelativeLayout>
