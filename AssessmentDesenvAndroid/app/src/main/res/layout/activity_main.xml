@@ -30,8 +30,7 @@
         android:layout_alignStart="@+id/btn_login"
         android:layout_below="@+id/btn_login"
         android:layout_marginTop="33dp"
-        android:text="Button"
-        tools:text="Cadastrar" />
+        android:text="Cadastrar" />
 
     <Button
         android:id="@+id/btn_facebook"
