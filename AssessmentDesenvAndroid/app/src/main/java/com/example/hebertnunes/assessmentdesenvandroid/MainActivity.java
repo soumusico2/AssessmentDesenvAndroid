@@ -21,5 +21,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(pagLogin);
             }
         });
+
+        Button cadastra = (Button) findViewById(R.id.btn_cadastro);
+        cadastra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent pagCadastra = new Intent(MainActivity.this, PageCadastra.class);
+                startActivity(pagCadastra);
+            }
+        });
     }
 }
