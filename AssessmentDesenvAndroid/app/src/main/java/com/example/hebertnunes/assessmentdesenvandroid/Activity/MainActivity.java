@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent pagCadastra = new Intent(MainActivity.this, PageCadastra.class);
                 startActivity(pagCadastra);
+                String texto = "Oi";
             }
         });
     }
